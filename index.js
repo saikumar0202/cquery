@@ -2,6 +2,7 @@ function c(selector) {
   var element = document.querySelector(selector);
   var data = {
     hide: () => (element.style.display = "none"),
+    show: () => (element.style.display = "block"),
     on: (event, callback) => element.addEventListener(event, callback),
     addClass: (classname) => element.classList.add(classname),
     removeClass: (classname) => element.classList.remove(classname),
