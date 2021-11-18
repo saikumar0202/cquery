@@ -19,5 +19,5 @@ function c(selector) {
     },
   };
   return data;
-  //sdfsd
+  
 }
