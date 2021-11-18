@@ -20,6 +20,9 @@ function c(selector) {
     toggleClass: (className) => {
       element.classList.toggleClass(className);
     },
+    removeAttr: (attr) =>{
+      element.removeAttribute(attr);
+    }
   };
   return data;
 }
