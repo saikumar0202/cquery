@@ -17,6 +17,9 @@ function c(selector) {
         element.style[key] = obj[key];
       }
     },
+    toggleClass: (className) => {
+      element.classList.toggleClass(className);
+    },
   };
   return data;
 }
